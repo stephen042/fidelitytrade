@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Trade Any Of 100 Assets & Stocks. Try Free Demo!">
+    <meta name="keywords" content="blockit, uikit3, indonez, handlebars, scss, javascript">
+    <meta name="author" content="Peter Parker">
+    <meta name="theme-color" content="#2E89EA" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <!-- Touch icon -->
+    <link rel="apple-touch-icon-precomposed" href="img/favicon.png">
+    <title>Fidelity Trades</title>
+    <!-- crisp Live Chat -->
+    <script type="text/javascript">
+        window.$crisp = [];
+        window.CRISP_WEBSITE_ID = "ec939608-ebcf-4fca-877e-a93f696b171b";
+        (function () {
+            d = document;
+            s = d.createElement("script");
+            s.src = "https://client.crisp.chat/l.js";
+            s.async = 1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })();
+    </script>
+</head>
+
+<body>
+    <!-- page loader begin -->
+    <div
+        class="page-loader w-100 h-100 bg-white d-flex justify-content-center align-items-center position-fixed overflow-hidden">
+        <div class="spinner-grow spinner-grow-sm text-primary"></div>
+        <div class="spinner-grow spinner-grow-sm text-primary"></div>
+        <div class="spinner-grow spinner-grow-sm text-primary"></div>
+    </div>
+    <!-- page loader end -->
+    <!-- header begin -->
+    <header class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/favicon.png" alt="logo" height="36" class="d-inline-block">
+                <span class="text-primary h4" style="font-family: 'Courier New', Courier, monospace;">Fidelity </span>
+            </a>
+            <div class="collapse navbar-collapse d-flex justify-content-between d-none d-xl-block" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="market.html">Market</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown-company" data-bs-toggle="dropdown"
+                            aria-expanded="false">Company</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="about.html">About</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="education.html">Education</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown-resources" data-bs-toggle="dropdown"
+                            aria-expanded="false">Resources</a>
+                        <ul class="dropdown-menu dropdown-large-menu">
+                            <li>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <ul class="list-unstyled">
+                                            <li><a class="dropdown-item" href="help-center.html">Help Center</a></li>
+                                            <li><a class="dropdown-item" href="customers.html">Customers</a></li>
+                                            <li><a class="dropdown-item" href="roadmap.html">Roadmap</a></li>
+                                            <li><a class="dropdown-item" href="terms.html">Terms & condition <i
+                                                        class="fas fa-gavel fa-sm"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 border-start child-menu-text">
+                                        <p>As a platform you can trust, we're built with a 256 bit encryption level to
+                                            add an additional layer of security.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="auth/sign-up.php">Signup</a>
+                    </li>
+                </ul>
+                <div class="optional-link d-flex align-items-center ms-4 d-none d-xl-block">
+                    <a href="auth/login.php" class="btn btn-link me-3"><i class="fas fa-circle-user"></i>Login</a>
+                    <a href="auth/sign-up.php" class="btn btn-info">Try demo</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <main>
+        <!-- slideshow content begin -->
+        <section>
+            <div id="main-slideshow" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <div class="carousel-caption d-flex align-items-center">
+                            <div class="container">
+                                <div class="row gx-md-5 align-items-md-center">
+                                    <div class="col-md-8 col-xl-6 order-first">
+                                        <h1 class="fw-bold display-5">Access a wealth of trading opportunities</h1>
+                                        <p class="lead mt-3 mb-4 d-none d-xl-block">Trusting in the security of the
+                                            Global leader in broker, more than 3 million products are waiting for you.
+                                        </p>
+                                        <a href="auth/sign-up.php" class="btn btn-primary">Start trading<i
+                                                class="fas fa-bolt ms-1"></i></a>
+                                        <a href="auth/sign-up.php" class="btn btn-link ms-3 d-none d-xl-inline"><i
+                                                class="fas fa-arrow-right"></i>Try demo account</a>
+                                    </div>
+                                    <div class="col-md-4 col-xl-6 order-last">
+                                        <div class="in-carousel-image">
+                                            <img src="img/in-cirro-slide-1.jpg" alt="slide" width="856" height="570" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-caption d-flex align-items-center">
+                            <div class="container">
+                                <div class="row gx-md-5 align-items-md-center">
+                                    <div class="col-md-8 col-xl-6 order-first">
+                                        <h1 class="fw-bold display-5">Physical stocks and cryptocurrencies with zero
+                                            commission</h1>
+                                        <p class="lead mt-3 mb-4 d-none d-xl-block">Trusting in the security of the
+                                            Global leader in broker, more than 3 million products are waiting for you.
+                                        </p>
+                                        <a href="auth/sign-up.php" class="btn btn-primary">Start trading<i
+                                                class="fas fa-bolt ms-1"></i></a>
+                                        <a href="auth/sign-up.php" class="btn btn-link ms-3 d-none d-xl-inline"><i
+                                                class="fas fa-arrow-right"></i>Try demo account</a>
+                                    </div>
+                                    <div class="col-md-4 col-xl-6 order-last">
+                                        <div class="in-carousel-image">
+                                            <img src="img/in-cirro-slide-2.jpg" alt="slide" width="856" height="570" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-caption d-flex align-items-center">
+                            <div class="container">
+                                <div class="row gx-md-5 align-items-md-center">
+                                    <div class="col-md-8 col-xl-6 order-first">
+                                        <h1 class="fw-bold display-5">Trading environment with the best pricing</h1>
+                                        <p class="lead mt-3 mb-4 d-none d-xl-block">Trusting in the security of the
+                                            Global leader in broker, more than 3 million products are waiting for you.
+                                        </p>
+                                        <a href="auth/sign-up.php" class="btn btn-primary">Start trading<i
+                                                class="fas fa-bolt ms-1"></i></a>
+                                        <a href="auth/sign-up.php" class="btn btn-link ms-3 d-none d-xl-inline"><i
+                                                class="fas fa-arrow-right"></i>Try demo account</a>
+                                    </div>
+                                    <div class="col-md-4 col-xl-6 order-last">
+                                        <div class="in-carousel-image">
+                                            <img src="img/in-cirro-slide-3.jpg" alt="slide" width="856" height="570" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-indicators"></div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#main-slideshow"
+                    data-bs-slide="prev"></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#main-slideshow"
+                    data-bs-slide="next"></button>
+            </div>
+        </section>
+        <!-- slideshow content end -->
+        <!-- section content begin -->
+        <section class="py-5 bg-primary text-white in-cirro-1">
+            <div class="container">
+                <div class="row gy-2 gy-md-2 gx-lg-3">
+                    <div class="col-md-12 col-lg-5">
+                        <h1 class="text-white">Experience superior trading conditions</h1>
+                        <p>View our impressive trading statistics and find out more about how we execute trading orders.
+                        </p>
+                    </div>
+                    <div class="col-md-12 col-lg-7">
+                        <div class="row row-cols-1 row-cols-md-3 mt-1">
+                            <div class="col">
+                                <div class="border-decor pt-1 pb-3 px-3">
+                                    <h1 class="text-white">&#60;14ms</h1>
+                                    <p class="text- mb-0">Ultra-fast Execution</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="border-decor pt-2 pt-md-1 pb-3 px-3">
+                                    <h1 class="text-white">1:500</h1>
+                                    <p class="text- mb-0">Maximum Leverage</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="border-decor pt-2 pt-md-1 pb-3 px-3">
+                                    <h1 class="text-white">2100+</h1>
+                                    <p class="text- mb-0">Trading Instruments</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-5">
+                        <div class="row row-cols-1 row-cols-md-4 row-cols-lg-6 gx-5 gy-3 gy-lg-0">
+                            <div class="col">
+                                <div class="ticker-image d-flex align-items-center">
+                                    <img class="opacity-75" src="img/in-cirro-1-ticker-1.svg" alt="ticker-logo"
+                                        width="138" height="34">
+                                </div>
+                                <div class="ticker-price">
+                                    2,120.67 (3.40%)<span class="ticker-down-arrow"><i
+                                            class="fas fa-circle-down"></i></span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="ticker-image d-flex align-items-center">
+                                    <img class="opacity-75" src="img/in-cirro-1-ticker-2.svg" alt="ticker-logo"
+                                        width="139" height="35">
+                                </div>
+                                <div class="ticker-price">
+                                    244.97 (2.70%)<span class="ticker-up-arrow"><i class="fas fa-circle-up"></i></span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="ticker-image d-flex align-items-center">
+                                    <img class="opacity-75" src="img/in-cirro-1-ticker-3.svg" alt="ticker-logo"
+                                        width="135" height="27">
+                                </div>
+                                <div class="ticker-price">
+                                    160.87 (5.01%)<span class="ticker-down-arrow"><i
+                                            class="fas fa-circle-down"></i></span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="ticker-image d-flex align-items-center">
+                                    <img class="opacity-75" src="img/in-cirro-1-ticker-4.svg" alt="ticker-logo"
+                                        width="130" height="20">
+                                </div>
+                                <div class="ticker-price">
+                                    639.30 (1.20%)<span class="ticker-up-arrow"><i class="fas fa-circle-up"></i></span>
+                                </div>
+                            </div>
+                            <div class="col d-none d-lg-block">
+                                <div class="ticker-image d-flex align-items-center">
+                                    <img class="opacity-75" src="img/in-cirro-1-ticker-5.svg" alt="ticker-logo"
+                                        width="137" height="32">
+                                </div>
+                                <div class="ticker-price">
+                                    121.08 (2.30%)<span class="ticker-up-arrow"><i class="fas fa-circle-up"></i></span>
+                                </div>
+                            </div>
+                            <div class="col d-none d-lg-block">
+                                <div class="ticker-image d-flex align-items-center">
+                                    <img class="opacity-75" src="img/in-cirro-1-ticker-6.svg" alt="ticker-logo"
+                                        width="114" height="31">
+                                </div>
+                                <div class="ticker-price">
+                                    104.78 (1.08%)<span class="ticker-up-arrow"><i class="fas fa-circle-up"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section content end -->
+        <!-- section content begin -->
+        <section class="py-5 in-cirro-2">
+            <div class="container">
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <h1 class="mb-1">Best-in-class forex and cryptocurrency execution</h1>
+                        <p class="lead">Access Tier-1 liquidity to receive higher fill-rates and significant price
+                            improvements.</p>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-2 g-md-2 gx-lg-2">
+                    <div class="col d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/in-cirro-2-icon-1.svg" alt="icon" width="46" height="46" />
+                                <h2 class="h5 mt-4">Tier 1 liquidity</h2>
+                                <p>receive higher fill-rates and significant price improvements.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/in-cirro-2-icon-2.svg" alt="icon" width="46" height="46" />
+                                <h2 class="h5 mt-4">Safe and Secure</h2>
+                                <p>256 bit encryption level, adding an additional layer of security.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/in-cirro-2-icon-3.svg" alt="icon" width="46" height="46" />
+                                <h2 class="h5 mt-4">Innovative platform</h2>
+                                <p>Low volatility. Advanced sniper entry helper for instant trade</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/in-cirro-2-icon-4.svg" alt="icon" width="46" height="46" />
+                                <h2 class="h5 mt-4">Low Commissions</h2>
+                                <p>Low trading commision. Varies by trading plan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section content end -->
+        <!-- section content begin -->
+        <section class="py-5 in-cirro-3">
+            <div class="container">
+                <div class="row d-flex align-items-center gx-5 mb-3">
+                    <div class="col-md-12 col-lg-5 mb-5 mb-md-3 mb-lg-0">
+                        <span class="badge bg-secondary mb-3">Popular instruments</span>
+                        <h1 class="mt-2 mb-1">Live prices on popular markets</h1>
+                        <p class="lead mb-4">Inform your decisions with timely dispatches from our team of global
+                            analysts.</p>
+                        <a href="education.html" class="btn btn-link"><i class="fas fa-arrow-right"></i>Find out
+                            more</a>
+                    </div>
+                    <div class="col-md-12 col-lg-7 mt-md-5">
+                        <div class="card card-body ms-lg-5">
+                            <div class="tradingview-widget-container" style="margin-top: 0px;">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <script src="../s3.tradingview.com/external-embedding/embed-widget-market-overview.js"
+                                    async="">
+                                        {
+                                            "colorTheme": "light",
+                                                "dateRange": "1D",
+                                                    "showChart": false,
+                                                        "locale": "en",
+                                                            "width": "100%",
+                                                                "height": "361",
+                                                                    "largeChartUrl": "",
+                                                                        "isTransparent": true,
+                                                                            "showSymbolLogo": true,
+                                                                                "showFloatingTooltip": false,
+                                                                                    "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+                                                                                        "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+                                                                                            "gridLineColor": "rgba(240, 243, 250, 0)",
+                                                                                                "scaleFontColor": "rgba(120, 123, 134, 1)",
+                                                                                                    "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+                                                                                                        "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+                                                                                                            "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+                                                                                                                "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+                                                                                                                    "symbolActiveColor": "rgba(41, 98, 255, 0.10)",
+                                                                                                                        "tabs": [
+                                                                                                                            {
+                                                                                                                                "title": "Instruments",
+                                                                                                                                "symbols": [{ "s": "BINANCE:BTCUSDT" }, { "s": "BINANCE:ETHUSDT" }, { "s": "BINANCE:SOLUSDT" }, { "s": "BINANCE:ADAUSDT" }, { "s": "BINANCE:XRPUSDT" }, { "s": "BINANCE:LUNAUSDT" }],
+                                                                                                                                "originalTitle": "Instruments"
+                                                                                                                            }
+                                                                                                                        ]
+                                        }</script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section content end -->
+        <!-- section content begin -->
+        <section class="py-5 in-cirro-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card card-body">
+                            <div class="row gx-0 d-flex align-items-center position-relative">
+                                <div class="col-md-5 col-lg-6">
+                                    <img class="testi-image" src="img/in-cirro-4-people.png" alt="testimonial"
+                                        width="418" height="441" />
+                                </div>
+                                <div class="col-md-7 col-lg-6">
+                                    <blockquote class="blockquote">
+                                        <p>They are very knowledgeable and provide our clients with excellent customer
+                                            service.</p>
+                                    </blockquote>
+                                    <h2 class="h6 mt-3 mb-0">Laura Belo</h2>
+                                    <span class="blockquote-footer">NeoTrade Systems Inc.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section content end -->
+        <!-- section content begin -->
+        <section class="py-5 in-cirro-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6">
+                        <h1 class="mb-1">Some of the things you may want to know</h1>
+                        <p class="lead mb-4">We answered questions so you don’t have to ask.</p>
+                        <a href="help-center.html" class="btn btn-link"><i class="fas fa-arrow-right"></i>View more
+                            questions</a>
+                    </div>
+                    <div class="col-md-12 col-lg-6 mt-5 mt-lg-0">
+                        <div class="accordion accordion-style-5 mt-n2 mb-3" id="sampleFive">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#a5One" aria-expanded="true">
+                                        How do I open an account with Fidelity Trades?
+                                    </button>
+                                </h2>
+                                <div id="a5One" class="accordion-collapse collapse show" data-bs-parent="#sampleFive">
+                                    <div class="accordion-body">
+                                        <p>Simply navigate to the <a href="auth/sign-up.php">sign up</a> page.
+                                            Registeration can be completed in minutes. Demo trading is available on all
+                                            trading plans.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#a5Two" aria-expanded="false">
+                                        What methods are available for depositing funds into my account ?
+                                    </button>
+                                </h2>
+                                <div id="a5Two" class="accordion-collapse collapse" data-bs-parent="#sampleFive">
+                                    <div class="accordion-body">
+                                        <p>
+                                            The methods available for funding your account are by cryptocurrency
+                                            (Bitcoin, Ethereum and Litecoin and many more). We do not accept Fiat on our
+                                            trading platform as we are fully a cryptocurrency organisation.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#a5Three" aria-expanded="false">
+                                        How do I fund my account?
+                                    </button>
+                                </h2>
+                                <div id="a5Three" class="accordion-collapse collapse" data-bs-parent="#sampleFive">
+                                    <div class="accordion-body">
+                                        <p>Login your account <br> Navigate to the deposit page <br>Select a method of
+                                            payment (Bitcoin, Ethereum, Litecoin, BNB, USDT) </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#a5Four" aria-expanded="false">
+                                        How will my withdrawal be processed?
+                                    </button>
+                                </h2>
+                                <div id="a5Four" class="accordion-collapse collapse" data-bs-parent="#sampleFive">
+                                    <div class="accordion-body">
+                                        <p>
+                                            To withdraw from your balance, you will have to provide a wallet address
+                                            (Bitcoin, BNB, Ethereum, Litecoin, USDT). Withdrawal will be processed in
+                                            minutes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section content end -->
+        <!-- section content begin -->
+        <section class="py-4 bg-info in-cirro-6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-md-flex justify-content-md-start align-items-center">
+                        <div class="border-end-md pe-md-5 d-block">
+                            <h2 class="text-white mb-0">Start investing today.</h2>
+                        </div>
+                        <div class="mt-3 mt-md-0 ps-md-5">
+                            <a href="auth/sign-up.php" class="btn btn-link"><i class="fas fa-arrow-right"></i>Open
+                                account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer begin -->
+    <footer class="py-5 in-cirro-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row gx-0 mb-3">
+                        <div class="col-md-12 col-lg-3 footer-logo">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="img/favicon.png" alt="logo" height="36" class="d-inline-block">
+                                <span class="text-primary h4"
+                                    style="font-family: 'Courier New', Courier, monospace;">Fidelity </span>
+                            </a>
+                            <a class="lead footer-email" style="font-size: 13px;"
+                                href="mailto:support@fidelitytrades.online">support@fidelitytrades.online</a>
+                        </div>
+                        <div class="col-md-12 col-lg-9">
+                            <div class="d-flex flex-column flex-xl-row justify-content-xl-end">
+                                <ul class="list-inline in-footer-link order-last order-xl-first">
+                                    <li class="list-inline-item"><a href="about.html">About</a></li>
+                                    <li class="list-inline-item"><a href="roadmap.html">Roadmap</a></li>
+                                    <li class="list-inline-item"><a href="auth/sign-up.php">Packages</a></li>
+                                    <li class="list-inline-item"><a href="auth/sign-up.php">Get Started</a></li>
+                                    <li class="list-inline-item"><a href="help-center.html">Help Center</a></li>
+                                </ul>
+                                <div class="social-media-list small hstack gap-3 ms-lg-5 order-first order-xl-last">
+                                    <div><a href="#" aria-label="social-link"><i class="fab fa-facebook-square"></i></a>
+                                    </div>
+                                    <div><a href="#" aria-label="social-link"><i class="fab fa-twitter"></i></a></div>
+                                    <div><a href="#" aria-label="social-link"><i class="fab fa-linkedin"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-3 mt-5 d-flex">
+                            <div class="align-self-end">
+                                <p class="mb-0 copyright-text"> © 2023 Fidelity Trades. All Rights Reserved.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-9 d-lg-flex justify-content-lg-end d-none d-lg-block">
+                            <div class="align-self-end">
+                                <nav class="nav in-footer-link-2">
+                                    <a class="nav-link border-end-md" href="customers.html">Customers</a>
+                                    <a class="nav-link border-end-md" href="education.html">Education</a>
+                                    <a class="nav-link border-end-md" href="terms.html">Terms & Conditions</a>
+                                    <a class="nav-link border-end-md" href="terms.html">Customer Agreement</a>
+                                    <a class="nav-link pe-0" href="#">AML policy</a>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <div class="d-none d-md-block">
+        <a href="#" class="to-top fas fa-arrow-up text-decoration-none text-white"></a>
+    </div>
+    <!-- javascript -->
+    <script src="js/vendors/bootstrap.min.js"></script>
+    <script src="js/vendors/trading-widget.min.js"></script>
+    <script src="js/utilities.min.js"></script>
+    <script src="js/config-theme.js"></script>
+    <script src="js/jquery-2.2.3.js"></script>
+    <!-- GetButton.io widget -->
+    <script type="text/javascript">
+        (function () {
+            var options = {
+                whatsapp: "+1 (623) 352-5942", // WhatsApp number
+                call_to_action: "Message us", // Call to action
+                position: "left", // Position may be 'right' or 'left'
+            };
+            var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+    <!-- /GetButton.io widget -->
+</body>
+
+
+
+<!-- Mirrored from fidelitytrades.online/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 25 Dec 2022 00:20:52 GMT -->
+
+</html>
